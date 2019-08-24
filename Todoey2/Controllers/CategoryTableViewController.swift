@@ -18,7 +18,7 @@ class CategoryTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        loadCategories()
+        loadCategories()   
 
     }
 

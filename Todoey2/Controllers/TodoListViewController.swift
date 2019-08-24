@@ -149,7 +149,7 @@ extension TodoListViewController : UISearchBarDelegate {
         
         request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
         
-        loadItems(with: request, predicate: predicate)
+        loadItems(with: request, predicate: predicate)  
         
         //print(searchBar.text)
     }
