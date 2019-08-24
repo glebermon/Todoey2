@@ -12,6 +12,7 @@
 		3300E5CE230973DB0047EB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300E5CC230973DB0047EB7E /* Main.storyboard */; };
 		3300E5D0230973E30047EB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3300E5CF230973E30047EB7E /* Assets.xcassets */; };
 		3300E5D3230973E30047EB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300E5D1230973E30047EB7E /* LaunchScreen.storyboard */; };
+		3317006D230F07B000AB3F8E /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317006C230F07B000AB3F8E /* CategoryTableViewController.swift */; };
 		3348502B230D10D70003FD06 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33485029230D10D70003FD06 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		3300E5CF230973E30047EB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3300E5D2230973E30047EB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3300E5D4230973E30047EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3317006C230F07B000AB3F8E /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		3348502A230D10D70003FD06 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		33637B39230C5EE000C2ED82 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3317006C230F07B000AB3F8E /* CategoryTableViewController.swift */,
 				3300E5CA230973DA0047EB7E /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 				3300E5CB230973DA0047EB7E /* TodoListViewController.swift in Sources */,
 				3348502B230D10D70003FD06 /* DataModel.xcdatamodeld in Sources */,
 				3300E5C9230973DA0047EB7E /* AppDelegate.swift in Sources */,
+				3317006D230F07B000AB3F8E /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
