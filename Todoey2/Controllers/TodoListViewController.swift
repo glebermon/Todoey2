@@ -55,9 +55,7 @@ class TodoListViewController: SwipeTableViewController {
         } else {
             cell.textLabel?.text = "No Items added yet"
         }
-        
-        
-        
+
         return cell
     }
     
@@ -140,8 +138,9 @@ class TodoListViewController: SwipeTableViewController {
             }
         }
     }
-    
 }
+
+//MARK: - Search Bar
 
 extension TodoListViewController : UISearchBarDelegate {
 
@@ -150,7 +149,6 @@ extension TodoListViewController : UISearchBarDelegate {
         toDoItems = toDoItems?.filter("title CONTAINS[cd] %@", searchBar.text!).sorted(byKeyPath: "dateCreated", ascending: false )
         tableView.reloadData() 
     }
-
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchBar.text?.count == 0 {

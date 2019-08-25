@@ -114,7 +114,6 @@ class CategoryTableViewController: SwipeTableViewController {
         
         categoriesArray = realm.objects(Category.self)
         
-
     }
     
     //MARK: - Delete data from swipe
