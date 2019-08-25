@@ -20,7 +20,7 @@ class CategoryTableViewController: SwipeTableViewController {
         
         loadCategories()
         
-        tableView.rowHeight = 75.0
+        tableView.rowHeight = 65.0
 
     }
 
