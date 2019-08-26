@@ -25,7 +25,6 @@ class TodoListViewController: SwipeTableViewController {
         
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
         
-        tableView.rowHeight = 65.0
     }
     
     //MARK - Tableview datasource methods
